@@ -1,0 +1,1220 @@
+{
+ "frame": {
+  "css_w": 531,
+  "css_h": 526,
+  "px_w": 1058,
+  "px_h": 1052
+ },
+ "plates": {
+  "endOfRoad": {
+   "title": "End of the Road",
+   "svg": "svg/endOfRoad.svg",
+   "png": "png/endOfRoad.png",
+   "webp": "webp/endOfRoad.webp",
+   "rooms": [
+    "endOfRoad"
+   ]
+  },
+  "shedYard": {
+   "title": "Yard of the Legacy Shed",
+   "svg": "svg/shedYard.svg",
+   "png": "png/shedYard.png",
+   "webp": "webp/shedYard.webp",
+   "rooms": [
+    "shedYard"
+   ]
+  },
+  "insideShed": {
+   "title": "Inside the Legacy Shed",
+   "svg": "svg/insideShed.svg",
+   "png": "png/insideShed.png",
+   "webp": "webp/insideShed.webp",
+   "rooms": [
+    "insideShed"
+   ]
+  },
+  "hillInForest": {
+   "title": "Hill in the Forest",
+   "svg": "svg/hillInForest.svg",
+   "png": "png/hillInForest.png",
+   "webp": "webp/hillInForest.webp",
+   "rooms": [
+    "hillInForest"
+   ]
+  },
+  "forestNorth": {
+   "title": "Forest, North of the Road",
+   "svg": "svg/forestNorth.svg",
+   "png": "png/forestNorth.png",
+   "webp": "webp/forestNorth.webp",
+   "rooms": [
+    "forestNorth"
+   ]
+  },
+  "forestWest": {
+   "title": "Forest, West of the Road",
+   "svg": "svg/forestWest.svg",
+   "png": "png/forestWest.png",
+   "webp": "webp/forestWest.webp",
+   "rooms": [
+    "forestWest"
+   ]
+  },
+  "theTrunk": {
+   "title": "The Great Trunk",
+   "svg": "svg/theTrunk.svg",
+   "png": "png/theTrunk.png",
+   "webp": "webp/theTrunk.webp",
+   "rooms": [
+    "theTrunk"
+   ]
+  },
+  "balloonMeadow": {
+   "title": "Meadow of the Balloon",
+   "svg": "svg/balloonMeadow.svg",
+   "png": "png/balloonMeadow.png",
+   "webp": "webp/balloonMeadow.webp",
+   "rooms": [
+    "balloonMeadow"
+   ]
+  },
+  "gully": {
+   "title": "Gully of the Data Creek",
+   "svg": "svg/gully.svg",
+   "png": "png/gully.png",
+   "webp": "webp/gully.webp",
+   "rooms": [
+    "gully"
+   ]
+  },
+  "creekBed": {
+   "title": "Creek Bed",
+   "svg": "svg/creekBed.svg",
+   "png": "png/creekBed.png",
+   "webp": "webp/creekBed.webp",
+   "rooms": [
+    "creekBed"
+   ]
+  },
+  "sinkhole": {
+   "title": "The Sinkhole",
+   "svg": "svg/sinkhole.svg",
+   "png": "png/sinkhole.png",
+   "webp": "webp/sinkhole.webp",
+   "rooms": [
+    "sinkhole"
+   ]
+  },
+  "ingressDeck": {
+   "title": "Ingress Deck",
+   "svg": "svg/ingressDeck.svg",
+   "png": "png/ingressDeck.png",
+   "webp": "webp/ingressDeck.webp",
+   "rooms": [
+    "ingressDeck"
+   ]
+  },
+  "firewallGate": {
+   "title": "The Firewall Gate",
+   "svg": "svg/firewallGate.svg",
+   "png": "png/firewallGate.png",
+   "webp": "webp/firewallGate.webp",
+   "rooms": [
+    "firewallGate"
+   ]
+  },
+  "atrium": {
+   "title": "Atrium of the Seven Halls",
+   "svg": "svg/atrium.svg",
+   "png": "png/atrium.png",
+   "webp": "webp/atrium.webp",
+   "rooms": [
+    "atrium"
+   ]
+  },
+  "observabilityBalcony": {
+   "title": "Observability Balcony",
+   "svg": "svg/observabilityBalcony.svg",
+   "png": "png/observabilityBalcony.png",
+   "webp": "webp/observabilityBalcony.webp",
+   "rooms": [
+    "observabilityBalcony"
+   ]
+  },
+  "deprecatedWing": {
+   "title": "The Deprecated Wing",
+   "svg": "svg/deprecatedWing.svg",
+   "png": "png/deprecatedWing.png",
+   "webp": "webp/deprecatedWing.webp",
+   "rooms": [
+    "deprecatedWing"
+   ]
+  },
+  "companyStore": {
+   "title": "The Company Store",
+   "svg": "svg/companyStore.svg",
+   "png": "png/companyStore.png",
+   "webp": "webp/companyStore.webp",
+   "rooms": [
+    "companyStore"
+   ]
+  },
+  "clientConcourse": {
+   "title": "Client Concourse",
+   "svg": "svg/clientConcourse.svg",
+   "png": "png/clientConcourse.png",
+   "webp": "webp/clientConcourse.webp",
+   "rooms": [
+    "clientConcourse"
+   ]
+  },
+  "chatParlor": {
+   "title": "The Chat Parlor",
+   "svg": "svg/chatParlor.svg",
+   "png": "png/chatParlor.png",
+   "webp": "webp/chatParlor.webp",
+   "rooms": [
+    "chatParlor"
+   ]
+  },
+  "uncannyValley": {
+   "title": "The Uncanny Valley",
+   "svg": "svg/uncannyValley.svg",
+   "png": "png/uncannyValley.png",
+   "webp": "webp/uncannyValley.webp",
+   "rooms": [
+    "uncannyValley"
+   ]
+  },
+  "requirementsHall": {
+   "title": "Hall of Requirements",
+   "svg": "svg/requirementsHall.svg",
+   "png": "png/requirementsHall.png",
+   "webp": "webp/requirementsHall.webp",
+   "rooms": [
+    "requirementsHall"
+   ]
+  },
+  "shallQuarry": {
+   "title": "The Shall Quarry",
+   "svg": "svg/shallQuarry.svg",
+   "png": "png/shallQuarry.png",
+   "webp": "webp/shallQuarry.webp",
+   "rooms": [
+    "shallQuarry"
+   ]
+  },
+  "swamp1": {
+   "title": "Somewhere in the Ambiguity Swamp",
+   "svg": "svg/swamp1.svg",
+   "png": "png/swamp1.png",
+   "webp": "webp/swamp1.webp",
+   "rooms": [
+    "swamp1",
+    "swamp2",
+    "swamp3"
+   ]
+  },
+  "backlogEnd": {
+   "title": "The Backlog, End of",
+   "svg": "svg/backlogEnd.svg",
+   "png": "png/backlogEnd.png",
+   "webp": "webp/backlogEnd.webp",
+   "rooms": [
+    "backlogEnd"
+   ]
+  },
+  "modelForge": {
+   "title": "The Model Forge",
+   "svg": "svg/modelForge.svg",
+   "png": "png/modelForge.png",
+   "webp": "webp/modelForge.webp",
+   "rooms": [
+    "modelForge"
+   ]
+  },
+  "metamodelVault": {
+   "title": "The Digital Thread Vault",
+   "svg": "svg/metamodelVault.svg",
+   "png": "png/metamodelVault.png",
+   "webp": "webp/metamodelVault.webp",
+   "rooms": [
+    "metamodelVault"
+   ]
+  },
+  "versionCrypt": {
+   "title": "The Version Crypt",
+   "svg": "svg/versionCrypt.svg",
+   "png": "png/versionCrypt.png",
+   "webp": "webp/versionCrypt.webp",
+   "rooms": [
+    "versionCrypt"
+   ]
+  },
+  "mergeChasm": {
+   "title": "The Merge Chasm",
+   "svg": "svg/mergeChasm.svg",
+   "png": "png/mergeChasm.png",
+   "webp": "webp/mergeChasm.webp",
+   "rooms": [
+    "mergeChasm"
+   ]
+  },
+  "farSide": {
+   "title": "The Rebased Shore",
+   "svg": "svg/farSide.svg",
+   "png": "png/farSide.png",
+   "webp": "webp/farSide.webp",
+   "rooms": [
+    "farSide"
+   ]
+  },
+  "copilotRoost": {
+   "title": "The Copilot Roost",
+   "svg": "svg/copilotRoost.svg",
+   "png": "png/copilotRoost.png",
+   "webp": "webp/copilotRoost.webp",
+   "rooms": [
+    "copilotRoost"
+   ]
+  },
+  "promptGarden": {
+   "title": "The Prompt Garden",
+   "svg": "svg/promptGarden.svg",
+   "png": "png/promptGarden.png",
+   "webp": "webp/promptGarden.webp",
+   "rooms": [
+    "promptGarden"
+   ]
+  },
+  "hallucinationGallery": {
+   "title": "The Hallucination Gallery",
+   "svg": "svg/hallucinationGallery.svg",
+   "png": "png/hallucinationGallery.png",
+   "webp": "webp/hallucinationGallery.webp",
+   "rooms": [
+    "hallucinationGallery"
+   ]
+  },
+  "missionDeck": {
+   "title": "Mission Deck",
+   "svg": "svg/missionDeck.svg",
+   "png": "png/missionDeck.png",
+   "webp": "webp/missionDeck.webp",
+   "rooms": [
+    "missionDeck"
+   ]
+  },
+  "warRoom": {
+   "title": "The War Room",
+   "svg": "svg/warRoom.svg",
+   "png": "png/warRoom.png",
+   "webp": "webp/warRoom.webp",
+   "rooms": [
+    "warRoom"
+   ]
+  },
+  "groundTruthRange": {
+   "title": "The Ground Truth Range",
+   "svg": "svg/groundTruthRange.svg",
+   "png": "png/groundTruthRange.png",
+   "webp": "webp/groundTruthRange.webp",
+   "rooms": [
+    "groundTruthRange"
+   ]
+  },
+  "vFoundry": {
+   "title": "The V Foundry",
+   "svg": "svg/vFoundry.svg",
+   "png": "png/vFoundry.png",
+   "webp": "webp/vFoundry.webp",
+   "rooms": [
+    "vFoundry"
+   ]
+  },
+  "pullRequestBridge": {
+   "title": "The Pull Request Bridge",
+   "svg": "svg/pullRequestBridge.svg",
+   "png": "png/pullRequestBridge.png",
+   "webp": "webp/pullRequestBridge.webp",
+   "rooms": [
+    "pullRequestBridge"
+   ]
+  },
+  "integrationBay": {
+   "title": "The Integration Bay",
+   "svg": "svg/integrationBay.svg",
+   "png": "png/integrationBay.png",
+   "webp": "webp/integrationBay.webp",
+   "rooms": [
+    "integrationBay"
+   ]
+  },
+  "interfaceLedge": {
+   "title": "The Interface Ledge",
+   "svg": "svg/interfaceLedge.svg",
+   "png": "png/interfaceLedge.png",
+   "webp": "webp/interfaceLedge.webp",
+   "rooms": [
+    "interfaceLedge"
+   ]
+  },
+  "trace1": {
+   "title": "Twisty little traces, all alike",
+   "svg": "svg/trace1.svg",
+   "png": "png/trace1.png",
+   "webp": "webp/trace1.webp",
+   "rooms": [
+    "trace1",
+    "trace2",
+    "trace3"
+   ]
+  },
+  "trace4": {
+   "title": "Dead end \u2014 the Regression's Cache",
+   "svg": "svg/trace4.svg",
+   "png": "png/trace4.png",
+   "webp": "webp/trace4.webp",
+   "rooms": [
+    "trace4"
+   ]
+  },
+  "macroGantry": {
+   "title": "The Macro Gantry",
+   "svg": "svg/macroGantry.svg",
+   "png": "png/macroGantry.png",
+   "webp": "webp/macroGantry.webp",
+   "rooms": [
+    "macroGantry"
+   ]
+  },
+  "titanScaffold": {
+   "title": "The Titan's Scaffold",
+   "svg": "svg/titanScaffold.svg",
+   "png": "png/titanScaffold.png",
+   "webp": "webp/titanScaffold.webp",
+   "rooms": [
+    "titanScaffold"
+   ]
+  },
+  "orbitalRing": {
+   "title": "The Orbital Ring",
+   "svg": "svg/orbitalRing.svg",
+   "png": "png/orbitalRing.png",
+   "webp": "webp/orbitalRing.webp",
+   "rooms": [
+    "orbitalRing"
+   ]
+  },
+  "spiralStair": {
+   "title": "The Spiral Stair",
+   "svg": "svg/spiralStair.svg",
+   "png": "png/spiralStair.png",
+   "webp": "webp/spiralStair.webp",
+   "rooms": [
+    "spiralStair"
+   ]
+  },
+  "rootCellar": {
+   "title": "The Root Cellar",
+   "svg": "svg/rootCellar.svg",
+   "png": "png/rootCellar.png",
+   "webp": "webp/rootCellar.webp",
+   "rooms": [
+    "rootCellar"
+   ]
+  },
+  "tokenFountain": {
+   "title": "The Token Fountain",
+   "svg": "svg/tokenFountain.svg",
+   "png": "png/tokenFountain.png",
+   "webp": "webp/tokenFountain.webp",
+   "rooms": [
+    "tokenFountain"
+   ]
+  },
+  "sandbox": {
+   "title": "The Sandbox",
+   "svg": "svg/sandbox.svg",
+   "png": "png/sandbox.png",
+   "webp": "webp/sandbox.webp",
+   "rooms": [
+    "sandbox"
+   ]
+  },
+  "serviceShaft": {
+   "title": "The Service Shaft",
+   "svg": "svg/serviceShaft.svg",
+   "png": "png/serviceShaft.png",
+   "webp": "webp/serviceShaft.webp",
+   "rooms": [
+    "serviceShaft"
+   ]
+  },
+  "landing": {
+   "title": "The Telemetry Landing",
+   "svg": "svg/landing.svg",
+   "png": "png/landing.png",
+   "webp": "webp/landing.webp",
+   "rooms": [
+    "landing"
+   ]
+  },
+  "legacyPit": {
+   "title": "The Legacy Serpent Pit",
+   "svg": "svg/legacyPit.svg",
+   "png": "png/legacyPit.png",
+   "webp": "webp/legacyPit.webp",
+   "rooms": [
+    "legacyPit"
+   ]
+  },
+  "incidentRoom": {
+   "title": "The Incident Room",
+   "svg": "svg/incidentRoom.svg",
+   "png": "png/incidentRoom.png",
+   "webp": "webp/incidentRoom.webp",
+   "rooms": [
+    "incidentRoom"
+   ]
+  },
+  "shrine": {
+   "title": "The Shrine of the Model",
+   "svg": "svg/shrine.svg",
+   "png": "png/shrine.png",
+   "webp": "webp/shrine.webp",
+   "rooms": [
+    "shrine"
+   ]
+  },
+  "visionPool": {
+   "title": "The Vision Pool",
+   "svg": "svg/visionPool.svg",
+   "png": "png/visionPool.png",
+   "webp": "webp/visionPool.webp",
+   "rooms": [
+    "visionPool"
+   ]
+  },
+  "chapel": {
+   "title": "The Chapel of the Nightly Build",
+   "svg": "svg/chapel.svg",
+   "png": "png/chapel.png",
+   "webp": "webp/chapel.webp",
+   "rooms": [
+    "chapel"
+   ]
+  },
+  "monolith": {
+   "title": "The Monolith",
+   "svg": "svg/monolith.svg",
+   "png": "png/monolith.png",
+   "webp": "webp/monolith.webp",
+   "rooms": [
+    "monolith"
+   ]
+  },
+  "rcAtrium": {
+   "title": "The Release Candidate",
+   "svg": "svg/rcAtrium.svg",
+   "png": "png/rcAtrium.png",
+   "webp": "webp/rcAtrium.webp",
+   "rooms": [
+    "rcAtrium"
+   ]
+  },
+  "boardroom": {
+   "title": "The Boardroom at the End of the Sprint",
+   "svg": "svg/boardroom.svg",
+   "png": "png/boardroom.png",
+   "webp": "webp/boardroom.webp",
+   "rooms": [
+    "boardroom"
+   ]
+  },
+  "rcMonolith": {
+   "title": "The Monolith, Mirrored",
+   "svg": "svg/rcMonolith.svg",
+   "png": "png/rcMonolith.png",
+   "webp": "webp/rcMonolith.webp",
+   "rooms": [
+    "rcMonolith"
+   ]
+  },
+  "rcBalcony": {
+   "title": "The Last Balcony",
+   "svg": "svg/rcBalcony.svg",
+   "png": "png/rcBalcony.png",
+   "webp": "webp/rcBalcony.webp",
+   "rooms": [
+    "rcBalcony"
+   ]
+  },
+  "programBoneyard": {
+   "title": "The Program Boneyard",
+   "svg": "svg/programBoneyard.svg",
+   "png": "png/programBoneyard.png",
+   "webp": "webp/programBoneyard.webp",
+   "rooms": [
+    "programBoneyard"
+   ]
+  },
+  "antennaFarm": {
+   "title": "The Antenna Farm",
+   "svg": "svg/antennaFarm.svg",
+   "png": "png/antennaFarm.png",
+   "webp": "webp/antennaFarm.webp",
+   "rooms": [
+    "antennaFarm"
+   ]
+  },
+  "surveyorsStake": {
+   "title": "The Surveyor's Stake",
+   "svg": "svg/surveyorsStake.svg",
+   "png": "png/surveyorsStake.png",
+   "webp": "webp/surveyorsStake.webp",
+   "rooms": [
+    "surveyorsStake"
+   ]
+  },
+  "fireRoad": {
+   "title": "The Fire Road",
+   "svg": "svg/fireRoad.svg",
+   "png": "png/fireRoad.png",
+   "webp": "webp/fireRoad.webp",
+   "rooms": [
+    "fireRoad"
+   ]
+  },
+  "culvertMouth": {
+   "title": "The Culvert Mouth",
+   "svg": "svg/culvertMouth.svg",
+   "png": "png/culvertMouth.png",
+   "webp": "webp/culvertMouth.webp",
+   "rooms": [
+    "culvertMouth"
+   ]
+  },
+  "telemetryWeir": {
+   "title": "The Telemetry Weir",
+   "svg": "svg/telemetryWeir.svg",
+   "png": "png/telemetryWeir.png",
+   "webp": "webp/telemetryWeir.webp",
+   "rooms": [
+    "telemetryWeir"
+   ]
+  },
+  "mastWalk": {
+   "title": "The Mast Walk",
+   "svg": "svg/mastWalk.svg",
+   "png": "png/mastWalk.png",
+   "webp": "webp/mastWalk.webp",
+   "rooms": [
+    "mastWalk"
+   ]
+  },
+  "slaLounge": {
+   "title": "The SLA Lounge",
+   "svg": "svg/slaLounge.svg",
+   "png": "png/slaLounge.png",
+   "webp": "webp/slaLounge.webp",
+   "rooms": [
+    "slaLounge"
+   ]
+  },
+  "archiveStacks": {
+   "title": "The Archive Stacks",
+   "svg": "svg/archiveStacks.svg",
+   "png": "png/archiveStacks.png",
+   "webp": "webp/archiveStacks.webp",
+   "rooms": [
+    "archiveStacks"
+   ]
+  },
+  "accessibilityWing": {
+   "title": "The Accessibility Wing",
+   "svg": "svg/accessibilityWing.svg",
+   "png": "png/accessibilityWing.png",
+   "webp": "webp/accessibilityWing.webp",
+   "rooms": [
+    "accessibilityWing"
+   ]
+  },
+  "helpDesk": {
+   "title": "The Help Desk",
+   "svg": "svg/helpDesk.svg",
+   "png": "png/helpDesk.png",
+   "webp": "webp/helpDesk.webp",
+   "rooms": [
+    "helpDesk"
+   ]
+  },
+  "matrixRoom": {
+   "title": "The Traceability Matrix",
+   "svg": "svg/matrixRoom.svg",
+   "png": "png/matrixRoom.png",
+   "webp": "webp/matrixRoom.webp",
+   "rooms": [
+    "matrixRoom"
+   ]
+  },
+  "tagCellar": {
+   "title": "The Tag Cellar",
+   "svg": "svg/tagCellar.svg",
+   "png": "png/tagCellar.png",
+   "webp": "webp/tagCellar.webp",
+   "rooms": [
+    "tagCellar"
+   ]
+  },
+  "patternLibrary": {
+   "title": "The Pattern Library",
+   "svg": "svg/patternLibrary.svg",
+   "png": "png/patternLibrary.png",
+   "webp": "webp/patternLibrary.webp",
+   "rooms": [
+    "patternLibrary"
+   ]
+  },
+  "promptCompost": {
+   "title": "The Compost Heap",
+   "svg": "svg/promptCompost.svg",
+   "png": "png/promptCompost.png",
+   "webp": "webp/promptCompost.webp",
+   "rooms": [
+    "promptCompost"
+   ]
+  },
+  "citationWell": {
+   "title": "The Citation Well",
+   "svg": "svg/citationWell.svg",
+   "png": "png/citationWell.png",
+   "webp": "webp/citationWell.webp",
+   "rooms": [
+    "citationWell"
+   ]
+  },
+  "contingencyCloset": {
+   "title": "The Contingency Closet",
+   "svg": "svg/contingencyCloset.svg",
+   "png": "png/contingencyCloset.png",
+   "webp": "webp/contingencyCloset.webp",
+   "rooms": [
+    "contingencyCloset"
+   ]
+  },
+  "sensorLine": {
+   "title": "The Sensor Line",
+   "svg": "svg/sensorLine.svg",
+   "png": "png/sensorLine.png",
+   "webp": "webp/sensorLine.webp",
+   "rooms": [
+    "sensorLine"
+   ]
+  },
+  "acceptanceFloor": {
+   "title": "The Acceptance Floor",
+   "svg": "svg/acceptanceFloor.svg",
+   "png": "png/acceptanceFloor.png",
+   "webp": "webp/acceptanceFloor.webp",
+   "rooms": [
+    "acceptanceFloor"
+   ]
+  },
+  "contractShelf": {
+   "title": "The Shelf of Published Contracts",
+   "svg": "svg/contractShelf.svg",
+   "png": "png/contractShelf.png",
+   "webp": "webp/contractShelf.webp",
+   "rooms": [
+    "contractShelf"
+   ]
+  },
+  "supplyChain": {
+   "title": "The Supply Chain",
+   "svg": "svg/supplyChain.svg",
+   "png": "png/supplyChain.png",
+   "webp": "webp/supplyChain.webp",
+   "rooms": [
+    "supplyChain"
+   ]
+  },
+  "deorbitGantry": {
+   "title": "The Deorbit Gantry",
+   "svg": "svg/deorbitGantry.svg",
+   "png": "png/deorbitGantry.png",
+   "webp": "webp/deorbitGantry.webp",
+   "rooms": [
+    "deorbitGantry"
+   ]
+  },
+  "contextWell": {
+   "title": "The Context Well",
+   "svg": "svg/contextWell.svg",
+   "png": "png/contextWell.png",
+   "webp": "webp/contextWell.webp",
+   "rooms": [
+    "contextWell"
+   ]
+  },
+  "postmortemArchive": {
+   "title": "The Postmortem Archive",
+   "svg": "svg/postmortemArchive.svg",
+   "png": "png/postmortemArchive.png",
+   "webp": "webp/postmortemArchive.webp",
+   "rooms": [
+    "postmortemArchive"
+   ]
+  },
+  "onboardingFunnel": {
+   "title": "The Onboarding Funnel",
+   "svg": "svg/onboardingFunnel.svg",
+   "png": "png/onboardingFunnel.png",
+   "webp": "webp/onboardingFunnel.webp",
+   "rooms": [
+    "onboardingFunnel"
+   ]
+  },
+  "sessionArchive": {
+   "title": "The Session Archive",
+   "svg": "svg/sessionArchive.svg",
+   "png": "png/sessionArchive.png",
+   "webp": "webp/sessionArchive.webp",
+   "rooms": [
+    "sessionArchive"
+   ]
+  },
+  "personaGallery": {
+   "title": "The Gallery of Personas",
+   "svg": "svg/personaGallery.svg",
+   "png": "png/personaGallery.png",
+   "webp": "webp/personaGallery.webp",
+   "rooms": [
+    "personaGallery"
+   ]
+  },
+  "notificationStorm": {
+   "title": "The Notification Storm",
+   "svg": "svg/notificationStorm.svg",
+   "png": "png/notificationStorm.png",
+   "webp": "webp/notificationStorm.webp",
+   "rooms": [
+    "notificationStorm"
+   ]
+  },
+  "elicitationBooth": {
+   "title": "The Elicitation Booth",
+   "svg": "svg/elicitationBooth.svg",
+   "png": "png/elicitationBooth.png",
+   "webp": "webp/elicitationBooth.webp",
+   "rooms": [
+    "elicitationBooth"
+   ]
+  },
+  "assayOffice": {
+   "title": "The Assay Office",
+   "svg": "svg/assayOffice.svg",
+   "png": "png/assayOffice.png",
+   "webp": "webp/assayOffice.webp",
+   "rooms": [
+    "assayOffice"
+   ]
+  },
+  "ossuary": {
+   "title": "The Ossuary of Cut Requirements",
+   "svg": "svg/ossuary.svg",
+   "png": "png/ossuary.png",
+   "webp": "webp/ossuary.webp",
+   "rooms": [
+    "ossuary"
+   ]
+  },
+  "metamodelStair": {
+   "title": "The Metamodel Stair",
+   "svg": "svg/metamodelStair.svg",
+   "png": "png/metamodelStair.png",
+   "webp": "webp/metamodelStair.webp",
+   "rooms": [
+    "metamodelStair"
+   ]
+  },
+  "metamodelLoft": {
+   "title": "The Metamodel Loft",
+   "svg": "svg/metamodelLoft.svg",
+   "png": "png/metamodelLoft.png",
+   "webp": "webp/metamodelLoft.webp",
+   "rooms": [
+    "metamodelLoft"
+   ]
+  },
+  "slagPit": {
+   "title": "The Slag Pit",
+   "svg": "svg/slagPit.svg",
+   "png": "png/slagPit.png",
+   "webp": "webp/slagPit.webp",
+   "rooms": [
+    "slagPit"
+   ]
+  },
+  "contextWindow": {
+   "title": "The Context Window",
+   "svg": "svg/contextWindow.svg",
+   "png": "png/contextWindow.png",
+   "webp": "webp/contextWindow.webp",
+   "rooms": [
+    "contextWindow"
+   ]
+  },
+  "rateLimiter": {
+   "title": "The Rate Limiter",
+   "svg": "svg/rateLimiter.svg",
+   "png": "png/rateLimiter.png",
+   "webp": "webp/rateLimiter.webp",
+   "rooms": [
+    "rateLimiter"
+   ]
+  },
+  "agentYard": {
+   "title": "The Agent Yard",
+   "svg": "svg/agentYard.svg",
+   "png": "png/agentYard.png",
+   "webp": "webp/agentYard.webp",
+   "rooms": [
+    "agentYard"
+   ]
+  },
+  "fineTuningCellar": {
+   "title": "The Fine-Tuning Cellar",
+   "svg": "svg/fineTuningCellar.svg",
+   "png": "png/fineTuningCellar.png",
+   "webp": "webp/fineTuningCellar.webp",
+   "rooms": [
+    "fineTuningCellar"
+   ]
+  },
+  "sortieBoard": {
+   "title": "The Sortie Board",
+   "svg": "svg/sortieBoard.svg",
+   "png": "png/sortieBoard.png",
+   "webp": "webp/sortieBoard.webp",
+   "rooms": [
+    "sortieBoard"
+   ]
+  },
+  "weatherDeck": {
+   "title": "The Weather Deck",
+   "svg": "svg/weatherDeck.svg",
+   "png": "png/weatherDeck.png",
+   "webp": "webp/weatherDeck.webp",
+   "rooms": [
+    "weatherDeck"
+   ]
+  },
+  "debriefRoom": {
+   "title": "The Debrief Room",
+   "svg": "svg/debriefRoom.svg",
+   "png": "png/debriefRoom.png",
+   "webp": "webp/debriefRoom.webp",
+   "rooms": [
+    "debriefRoom"
+   ]
+  },
+  "rehearsalHangar": {
+   "title": "The Rehearsal Hangar",
+   "svg": "svg/rehearsalHangar.svg",
+   "png": "png/rehearsalHangar.png",
+   "webp": "webp/rehearsalHangar.webp",
+   "rooms": [
+    "rehearsalHangar"
+   ]
+  },
+  "continentalFloor": {
+   "title": "The Continental Model Floor",
+   "svg": "svg/continentalFloor.svg",
+   "png": "png/continentalFloor.png",
+   "webp": "webp/continentalFloor.webp",
+   "rooms": [
+    "continentalFloor"
+   ]
+  },
+  "magnitudeStair": {
+   "title": "The Order-of-Magnitude Stair",
+   "svg": "svg/magnitudeStair.svg",
+   "png": "png/magnitudeStair.png",
+   "webp": "webp/magnitudeStair.webp",
+   "rooms": [
+    "magnitudeStair"
+   ]
+  },
+  "longNowRoom": {
+   "title": "The Long Now Room",
+   "svg": "svg/longNowRoom.svg",
+   "png": "png/longNowRoom.png",
+   "webp": "webp/longNowRoom.webp",
+   "rooms": [
+    "longNowRoom"
+   ]
+  },
+  "ballastYard": {
+   "title": "The Ballast Yard",
+   "svg": "svg/ballastYard.svg",
+   "png": "png/ballastYard.png",
+   "webp": "webp/ballastYard.webp",
+   "rooms": [
+    "ballastYard"
+   ]
+  },
+  "rcConcourse": {
+   "title": "The Client Concourse, Mirrored",
+   "svg": "svg/rcConcourse.svg",
+   "png": "png/rcConcourse.png",
+   "webp": "webp/rcConcourse.webp",
+   "rooms": [
+    "rcConcourse"
+   ]
+  },
+  "rcWing": {
+   "title": "The Deprecated Wing, Mirrored",
+   "svg": "svg/rcWing.svg",
+   "png": "png/rcWing.png",
+   "webp": "webp/rcWing.webp",
+   "rooms": [
+    "rcWing"
+   ]
+  },
+  "scatterField": {
+   "title": "The Scatter Field",
+   "svg": "svg/scatterField.svg",
+   "png": "png/scatterField.png",
+   "webp": "webp/scatterField.webp",
+   "rooms": [
+    "scatterField"
+   ]
+  },
+  "wreckOfTheHalls": {
+   "title": "The Halls, Come Down",
+   "svg": "svg/wreckOfTheHalls.svg",
+   "png": "png/wreckOfTheHalls.png",
+   "webp": "webp/wreckOfTheHalls.webp",
+   "rooms": [
+    "wreckOfTheHalls"
+   ]
+  },
+  "newProgramOffice": {
+   "title": "The New Program Office",
+   "svg": "svg/newProgramOffice.svg",
+   "png": "png/newProgramOffice.png",
+   "webp": "webp/newProgramOffice.webp",
+   "rooms": [
+    "newProgramOffice"
+   ]
+  },
+  "siteHut": {
+   "title": "The Site Hut",
+   "svg": "svg/siteHut.svg",
+   "png": "png/siteHut.png",
+   "webp": "webp/siteHut.webp",
+   "rooms": [
+    "siteHut"
+   ]
+  },
+  "recordsOffice": {
+   "title": "The Records Office",
+   "svg": "svg/recordsOffice.svg",
+   "png": "png/recordsOffice.png",
+   "webp": "webp/recordsOffice.webp",
+   "rooms": [
+    "recordsOffice"
+   ]
+  },
+  "signingTent": {
+   "title": "The Signing Tent",
+   "svg": "svg/signingTent.svg",
+   "png": "png/signingTent.png",
+   "webp": "webp/signingTent.webp",
+   "rooms": [
+    "signingTent"
+   ]
+  },
+  "theRoadAtDawn": {
+   "title": "The Road at Dawn",
+   "svg": "svg/theRoadAtDawn.svg",
+   "png": "png/theRoadAtDawn.png",
+   "webp": "webp/theRoadAtDawn.webp",
+   "rooms": [
+    "theRoadAtDawn"
+   ]
+  },
+  "siteGate": {
+   "title": "The Site Gate",
+   "svg": "svg/siteGate.svg",
+   "png": "png/siteGate.png",
+   "webp": "webp/siteGate.webp",
+   "rooms": [
+    "siteGate"
+   ]
+  },
+  "tarpaulin": {
+   "title": "Under the Tarpaulin",
+   "svg": "svg/tarpaulin.svg",
+   "png": "png/tarpaulin.png",
+   "webp": "webp/tarpaulin.webp",
+   "rooms": [
+    "tarpaulin"
+   ]
+  },
+  "weighbridge": {
+   "title": "The Weighbridge",
+   "svg": "svg/weighbridge.svg",
+   "png": "png/weighbridge.png",
+   "webp": "webp/weighbridge.webp",
+   "rooms": [
+    "weighbridge"
+   ]
+  },
+  "readingRoom": {
+   "title": "The Reading Room",
+   "svg": "svg/readingRoom.svg",
+   "png": "png/readingRoom.png",
+   "webp": "webp/readingRoom.webp",
+   "rooms": [
+    "readingRoom"
+   ]
+  },
+  "countyRoad": {
+   "title": "The County Road",
+   "svg": "svg/countyRoad.svg",
+   "png": "png/countyRoad.png",
+   "webp": "webp/countyRoad.webp",
+   "rooms": [
+    "countyRoad"
+   ]
+  }
+ },
+ "room_to_plate": {
+  "endOfRoad": "endOfRoad",
+  "shedYard": "shedYard",
+  "insideShed": "insideShed",
+  "hillInForest": "hillInForest",
+  "forestNorth": "forestNorth",
+  "forestWest": "forestWest",
+  "theTrunk": "theTrunk",
+  "balloonMeadow": "balloonMeadow",
+  "gully": "gully",
+  "creekBed": "creekBed",
+  "sinkhole": "sinkhole",
+  "ingressDeck": "ingressDeck",
+  "firewallGate": "firewallGate",
+  "atrium": "atrium",
+  "observabilityBalcony": "observabilityBalcony",
+  "deprecatedWing": "deprecatedWing",
+  "companyStore": "companyStore",
+  "clientConcourse": "clientConcourse",
+  "chatParlor": "chatParlor",
+  "uncannyValley": "uncannyValley",
+  "requirementsHall": "requirementsHall",
+  "shallQuarry": "shallQuarry",
+  "swamp1": "swamp1",
+  "swamp2": "swamp1",
+  "swamp3": "swamp1",
+  "backlogEnd": "backlogEnd",
+  "modelForge": "modelForge",
+  "metamodelVault": "metamodelVault",
+  "versionCrypt": "versionCrypt",
+  "mergeChasm": "mergeChasm",
+  "farSide": "farSide",
+  "copilotRoost": "copilotRoost",
+  "promptGarden": "promptGarden",
+  "hallucinationGallery": "hallucinationGallery",
+  "missionDeck": "missionDeck",
+  "warRoom": "warRoom",
+  "groundTruthRange": "groundTruthRange",
+  "vFoundry": "vFoundry",
+  "pullRequestBridge": "pullRequestBridge",
+  "integrationBay": "integrationBay",
+  "interfaceLedge": "interfaceLedge",
+  "trace1": "trace1",
+  "trace2": "trace1",
+  "trace3": "trace1",
+  "trace4": "trace4",
+  "macroGantry": "macroGantry",
+  "titanScaffold": "titanScaffold",
+  "orbitalRing": "orbitalRing",
+  "spiralStair": "spiralStair",
+  "rootCellar": "rootCellar",
+  "tokenFountain": "tokenFountain",
+  "sandbox": "sandbox",
+  "serviceShaft": "serviceShaft",
+  "landing": "landing",
+  "legacyPit": "legacyPit",
+  "incidentRoom": "incidentRoom",
+  "shrine": "shrine",
+  "visionPool": "visionPool",
+  "chapel": "chapel",
+  "monolith": "monolith",
+  "rcAtrium": "rcAtrium",
+  "boardroom": "boardroom",
+  "rcMonolith": "rcMonolith",
+  "rcBalcony": "rcBalcony",
+  "programBoneyard": "programBoneyard",
+  "antennaFarm": "antennaFarm",
+  "surveyorsStake": "surveyorsStake",
+  "fireRoad": "fireRoad",
+  "culvertMouth": "culvertMouth",
+  "telemetryWeir": "telemetryWeir",
+  "mastWalk": "mastWalk",
+  "slaLounge": "slaLounge",
+  "archiveStacks": "archiveStacks",
+  "accessibilityWing": "accessibilityWing",
+  "helpDesk": "helpDesk",
+  "matrixRoom": "matrixRoom",
+  "tagCellar": "tagCellar",
+  "patternLibrary": "patternLibrary",
+  "promptCompost": "promptCompost",
+  "citationWell": "citationWell",
+  "contingencyCloset": "contingencyCloset",
+  "sensorLine": "sensorLine",
+  "acceptanceFloor": "acceptanceFloor",
+  "contractShelf": "contractShelf",
+  "supplyChain": "supplyChain",
+  "deorbitGantry": "deorbitGantry",
+  "contextWell": "contextWell",
+  "postmortemArchive": "postmortemArchive",
+  "onboardingFunnel": "onboardingFunnel",
+  "sessionArchive": "sessionArchive",
+  "personaGallery": "personaGallery",
+  "notificationStorm": "notificationStorm",
+  "elicitationBooth": "elicitationBooth",
+  "assayOffice": "assayOffice",
+  "ossuary": "ossuary",
+  "metamodelStair": "metamodelStair",
+  "metamodelLoft": "metamodelLoft",
+  "slagPit": "slagPit",
+  "contextWindow": "contextWindow",
+  "rateLimiter": "rateLimiter",
+  "agentYard": "agentYard",
+  "fineTuningCellar": "fineTuningCellar",
+  "sortieBoard": "sortieBoard",
+  "weatherDeck": "weatherDeck",
+  "debriefRoom": "debriefRoom",
+  "rehearsalHangar": "rehearsalHangar",
+  "continentalFloor": "continentalFloor",
+  "magnitudeStair": "magnitudeStair",
+  "longNowRoom": "longNowRoom",
+  "ballastYard": "ballastYard",
+  "rcConcourse": "rcConcourse",
+  "rcWing": "rcWing",
+  "scatterField": "scatterField",
+  "wreckOfTheHalls": "wreckOfTheHalls",
+  "newProgramOffice": "newProgramOffice",
+  "siteHut": "siteHut",
+  "recordsOffice": "recordsOffice",
+  "signingTent": "signingTent",
+  "theRoadAtDawn": "theRoadAtDawn",
+  "siteGate": "siteGate",
+  "tarpaulin": "tarpaulin",
+  "weighbridge": "weighbridge",
+  "readingRoom": "readingRoom",
+  "countyRoad": "countyRoad"
+ }
+}

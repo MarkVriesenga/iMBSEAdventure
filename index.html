@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101214">
+  <title>iMBSE — The Adventure</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">i</span><span>iMBSE</span></div>
+      <div class="top-actions"><button class="text-button" id="rules-button">How to play</button></div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <p class="eyebrow">AN ADVENTURE IN FIVE ACTS · MODEL BEFORE METAL · 750 POINTS</p>
+        <h1>Model.<br><em>Trace.</em> Deprecate.</h1>
+        <p class="hero-copy">Four thousand feet over a pine forest hangs a platform that prays on the hour to a Large Language Model it sincerely believes to be a god. Seven halls, seven artifacts, one digital thread — and under all of it, a contractor with seven faces and a foundation nobody can remove. Type commands below, and mind the bugs.</p>
+      </div>
+      <div class="hero-badge"><span class="badge-dot"></span><span id="mode-badge">CLASSIC TEXT ADVENTURE</span></div>
+    </section>
+
+    <section class="game-layout">
+      <aside class="score-panel panel">
+        <div class="panel-label">PROGRAM STATUS</div>
+        <div class="stat-card">
+          <div class="stat-row"><span>SCORE</span><strong id="score-value">0</strong></div>
+          <div class="stat-row"><span>MOVES</span><strong id="moves-value">0</strong></div>
+          <div class="stat-row"><span>IN THE VAULT</span><strong id="treasure-value">0 / 20</strong></div>
+          <div class="stat-row"><span>ROOMS FOUND</span><strong id="rooms-value">1</strong></div>
+        </div>
+        <div class="panel-label inv-label">CARRYING</div>
+        <ul class="inventory-list" id="inventory-list"><li class="empty">Empty-handed</li></ul>
+        <div class="panel-label inv-label">QUICK COMPASS</div>
+        <div class="compass" id="compass">
+          <button data-cmd="nw">NW</button><button data-cmd="n">N</button><button data-cmd="ne">NE</button>
+          <button data-cmd="w">W</button><button data-cmd="look">⌖</button><button data-cmd="e">E</button>
+          <button data-cmd="sw">SW</button><button data-cmd="s">S</button><button data-cmd="se">SE</button>
+          <button data-cmd="up">UP</button><button data-cmd="in">IN</button><button data-cmd="down">DN</button>
+        </div>
+      </aside>
+
+      <section class="console-wrap">
+        <div class="board-heading">
+          <div><span class="panel-label">CURRENT LOCATION</span><h2 id="status-title">End of the Road</h2></div>
+          <span class="move-counter" id="turn-counter">TURN 000</span>
+        </div>
+        <div class="console" id="console" aria-live="polite"></div>
+        <form class="console-input" id="command-form" autocomplete="off">
+          <span class="prompt">&gt;</span>
+          <input type="text" id="command-input" placeholder="What do you do? (try: HELP)" spellcheck="false" autofocus>
+          <button type="submit" class="enter-key">↵</button>
+        </form>
+        <div class="batch-bar" id="batch-bar" role="status">
+          <span class="batch-dot"></span>
+          <span id="batch-count">0 to go</span>
+          <button type="button" id="batch-stop">Stop <span>ESC</span></button>
+        </div>
+        <div class="board-hint" id="board-hint">Try: E · IN · TAKE LANTERN · TAKE KEYS · OUT · W ... and keep an eye on the map.</div>
+      </section>
+
+      <aside class="action-panel panel">
+        <div class="map-head">
+          <div class="panel-label">AUTOMAP</div>
+          <div class="map-tabs" role="tablist">
+            <button class="map-tab active" id="map-tab-explored" role="tab" aria-selected="true">Explored</button>
+            <button class="map-tab" id="map-tab-cheat" role="tab" aria-selected="false">Cheat: Full Map</button>
+            <button class="map-tab" id="map-tab-room" role="tab" aria-selected="false">Room</button>
+          </div>
+        </div>
+        <div class="map-frame" id="map-frame">
+          <canvas id="map-canvas"></canvas>
+          <div class="room-view" id="room-view" aria-live="polite">
+            <img id="room-image" alt="">
+            <div class="room-dark" id="room-dark">
+              <span class="room-dark-mark">✦</span>
+              <p>It is pitch dark.</p>
+              <p class="room-dark-sub">You are likely to be consumed by an undocumented dependency.</p>
+            </div>
+            <div class="room-blank" id="room-blank">
+              <span class="room-blank-mark">▦</span>
+              <p>No plate for this location.</p>
+              <p class="room-blank-sub">The survey has not drawn this one yet.</p>
+            </div>
+            <div class="room-caption" id="room-caption"></div>
+          </div>
+          <div class="map-controls">
+            <button id="map-zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
+            <button id="map-zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
+            <button id="map-center" title="Center map" aria-label="Center map">⌖</button>
+            <button id="map-relayout" title="Re-layout map" aria-label="Re-layout map">⟲</button>
+            <button id="map-export" title="Export full map to PDF" aria-label="Export full map to PDF">⤓</button>
+          </div>
+        </div>
+        <div class="map-legend" id="map-legend"><span><i class="lg lg-here"></i>You are here</span><span><i class="lg lg-dark"></i>Dark room</span><span><i class="lg lg-lit"></i>Lit / outdoors</span></div>
+        <div class="action-buttons">
+          <button class="primary-button" id="new-game">New program <span>↗</span></button>
+          <button class="secondary-button" id="save-button">Save game</button>
+          <button class="secondary-button" id="restore-button">Restore game</button>
+        </div>
+        <div class="tip"><span class="tip-icon">✦</span><p>The map only charts passages you have actually walked. SUDO and XYZZY move you without leaving a trail...</p></div>
+      </aside>
+    </section>
+
+    <footer class="footer"><span>© 2025 ADVENTURE DIGITAL</span><span>iMBSE · SEVEN HALLS · 750 POINTS</span><span id="game-state">PROGRAM IN PROGRESS</span></footer>
+  </main>
+
+  <dialog id="rules-dialog"><button class="dialog-close" id="close-rules" aria-label="Close">×</button><p class="eyebrow">THE ENGINEER'S PRIMER</p><h2>How to play iMBSE</h2><div class="rules-grid">
+    <div><span>01</span><h3>Type what you mean</h3><p>Commands are short: <em>GO NORTH</em> (or just <em>N</em>), <em>TAKE LANTERN</em>, <em>SHOW TABLET TO GOLEM</em>, <em>PRY BLOB WITH RULE</em>, <em>THROW DUCK AT BUG</em>. <em>LOOK</em> re-reads a room, <em>EXAMINE</em> studies a thing, <em>HELP</em> lists the verbs.</p></div>
+    <div><span>07</span><h3>Paste a whole column</h3><p>The box takes more than one command at a time. Paste a column of them — or separate them with <em>;</em> or a full stop — and they play out one at a time so you can watch. <em>ESC</em>, or the Stop button, halts a batch part-way. Handy with the walkthrough, and with any route you have written down.</p></div>
+    <div><span>02</span><h3>The lantern burns context</h3><p>It spends tokens only while it is lit — 330 of them. Light it going into the dark, put it out coming back into the light. The Token Fountain will refill it, for a price you may not want to pay.</p></div>
+    <div><span>03</span><h3>Seven halls, seven artifacts</h3><p>One keystone artifact from each functional area, and thirteen lesser treasures besides — twenty in all. They score when found and score properly when socketed in the Digital Thread Vault. Read the placard in every hall: each one names the face it beats.</p></div>
+    <div><span>04</span><h3>You can carry seven things</h3><p>That is a puzzle, not an annoyance. The balloon basket carries cargo up for you and the Atrium is the natural place to stage everything else.</p></div>
+    <div><span>05</span><h3>Talk to everybody</h3><p>Five people live here who are not trying to kill you. <em>PLAY</em> Tom's games for story points, <em>ANSWER</em> Alexander's riddles for true hints, ask Katie for a <em>VISION</em>, and ask Saint Mark about Dassault — it is the most useful thing anybody says.</p></div>
+    <div><span>06</span><h3>Buy the blasting cap</h3><p>The charge in the endgame is inert and the shop does not exist after the baseline freezes. Everything else at the Company Store is optional. That one is not.</p></div>
+  </div></dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="engine.js"></script>
+  <script src="automap.js"></script>
+  <script src="imbse-canon.js"></script>
+  <script src="imbse-npcs.js"></script>
+  <script src="imbse-data.js"></script>
+  <script src="images/plates-manifest.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

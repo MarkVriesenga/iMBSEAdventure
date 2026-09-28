@@ -1,0 +1,45 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# graft code-index cache
+graft/.cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node (the game has no build step, but tools/ and tests/ run under node)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Python (images/*.py plate builders)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Logs and scratch output
+logs/
+*.log
+outputs/
+tmp/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
